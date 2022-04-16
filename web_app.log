@@ -1,0 +1,65 @@
+{"level":"DEBUG","time":"2022-04-11T16:23:41.589+0800","caller":"bluebell/main.go:34","msg":"logger init success"}
+{"level":"ERROR","time":"2022-04-11T16:23:41.594+0800","caller":"mysql/mysql.go:24","msg":"connect db failed","error":"Error 1045: Access denied for user 'root'@'localhost' (using password: YES)"}
+{"level":"INFO","time":"2022-04-11T16:24:44.020+0800","caller":"bluebell/main.go:71","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-04-11T16:24:44.022+0800","caller":"bluebell/main.go:80","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-04-11T16:24:45.175+0800","caller":"bluebell/main.go:34","msg":"logger init success"}
+{"level":"ERROR","time":"2022-04-11T16:24:45.184+0800","caller":"mysql/mysql.go:24","msg":"connect db failed","error":"Error 1045: Access denied for user 'root'@'localhost' (using password: YES)"}
+{"level":"INFO","time":"2022-04-11T16:25:08.194+0800","caller":"bluebell/main.go:71","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-04-11T16:25:08.196+0800","caller":"bluebell/main.go:80","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-04-11T16:25:09.550+0800","caller":"bluebell/main.go:34","msg":"logger init success"}
+{"level":"ERROR","time":"2022-04-11T16:25:09.561+0800","caller":"mysql/mysql.go:24","msg":"connect db failed","error":"Error 1049: Unknown database 'sql_demo'"}
+{"level":"INFO","time":"2022-04-11T16:25:21.840+0800","caller":"bluebell/main.go:71","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-04-11T16:25:21.842+0800","caller":"bluebell/main.go:80","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-04-11T16:25:22.972+0800","caller":"bluebell/main.go:34","msg":"logger init success"}
+{"level":"INFO","time":"2022-04-11T16:25:40.377+0800","caller":"logger/logger.go:74","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"::1","user-agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36","errors":"","cost":0.000023314}
+{"level":"INFO","time":"2022-04-11T16:25:40.417+0800","caller":"logger/logger.go:74","msg":"/favicon.ico","status":404,"method":"GET","path":"/favicon.ico","query":"","ip":"::1","user-agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36","errors":"","cost":0.000000772}
+{"level":"INFO","time":"2022-04-11T16:25:57.344+0800","caller":"bluebell/main.go:71","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-04-11T16:25:57.346+0800","caller":"bluebell/main.go:80","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-04-11T16:26:13.724+0800","caller":"bluebell/main.go:34","msg":"logger init success"}
+{"level":"INFO","time":"2022-04-11T16:26:16.227+0800","caller":"logger/logger.go:74","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"::1","user-agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36","errors":"","cost":0.000042853}
+{"level":"INFO","time":"2022-04-11T16:26:16.678+0800","caller":"logger/logger.go:74","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"::1","user-agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36","errors":"","cost":0.000015119}
+{"level":"INFO","time":"2022-04-11T16:26:16.874+0800","caller":"logger/logger.go:74","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"::1","user-agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36","errors":"","cost":0.00001085}
+{"level":"INFO","time":"2022-04-11T16:26:17.030+0800","caller":"logger/logger.go:74","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"::1","user-agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36","errors":"","cost":0.000008617}
+{"level":"INFO","time":"2022-04-11T16:27:08.813+0800","caller":"bluebell/main.go:71","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-04-11T16:27:08.815+0800","caller":"bluebell/main.go:80","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-04-16T18:32:15.951+0800","caller":"bluebell/main.go:35","msg":"logger init success"}
+{"level":"INFO","time":"2022-04-16T18:32:44.791+0800","caller":"logger/logger.go:74","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"::1","user-agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36","errors":"","cost":0.000017332}
+{"level":"INFO","time":"2022-04-16T18:32:44.827+0800","caller":"logger/logger.go:74","msg":"/favicon.ico","status":404,"method":"GET","path":"/favicon.ico","query":"","ip":"::1","user-agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36","errors":"","cost":0.000001182}
+{"level":"INFO","time":"2022-04-16T18:36:59.393+0800","caller":"logger/logger.go:74","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"::1","user-agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36","errors":"","cost":0.000015389}
+{"level":"INFO","time":"2022-04-16T19:59:29.101+0800","caller":"bluebell/main.go:75","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-04-16T19:59:29.105+0800","caller":"bluebell/main.go:84","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-04-16T19:59:30.450+0800","caller":"bluebell/main.go:35","msg":"logger init success"}
+{"level":"INFO","time":"2022-04-16T20:13:23.641+0800","caller":"bluebell/main.go:75","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-04-16T20:13:23.642+0800","caller":"bluebell/main.go:84","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-04-16T20:13:25.091+0800","caller":"bluebell/main.go:28","msg":"logger init success"}
+{"level":"ERROR","time":"2022-04-16T20:13:41.899+0800","caller":"controller/user.go:18","msg":"SignUp with invalid param","error":"EOF"}
+{"level":"INFO","time":"2022-04-16T20:13:41.899+0800","caller":"logger/logger.go:74","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.29.0","errors":"","cost":0.000158885}
+{"level":"ERROR","time":"2022-04-16T20:13:44.534+0800","caller":"controller/user.go:18","msg":"SignUp with invalid param","error":"EOF"}
+{"level":"INFO","time":"2022-04-16T20:13:44.534+0800","caller":"logger/logger.go:74","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.29.0","errors":"","cost":0.000188551}
+{"level":"ERROR","time":"2022-04-16T20:13:44.991+0800","caller":"controller/user.go:18","msg":"SignUp with invalid param","error":"EOF"}
+{"level":"INFO","time":"2022-04-16T20:13:44.991+0800","caller":"logger/logger.go:74","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.29.0","errors":"","cost":0.000150178}
+{"level":"ERROR","time":"2022-04-16T20:14:16.482+0800","caller":"controller/user.go:18","msg":"SignUp with invalid param","error":"invalid character 'h' looking for beginning of value"}
+{"level":"INFO","time":"2022-04-16T20:14:16.482+0800","caller":"logger/logger.go:74","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.29.0","errors":"","cost":0.000173565}
+{"level":"ERROR","time":"2022-04-16T20:14:17.167+0800","caller":"controller/user.go:18","msg":"SignUp with invalid param","error":"invalid character 'h' looking for beginning of value"}
+{"level":"INFO","time":"2022-04-16T20:14:17.168+0800","caller":"logger/logger.go:74","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.29.0","errors":"","cost":0.000148187}
+{"level":"ERROR","time":"2022-04-16T20:14:25.363+0800","caller":"controller/user.go:18","msg":"SignUp with invalid param","error":"invalid character 'h' looking for beginning of value"}
+{"level":"INFO","time":"2022-04-16T20:14:25.363+0800","caller":"logger/logger.go:74","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.29.0","errors":"","cost":0.000173957}
+{"level":"ERROR","time":"2022-04-16T20:14:26.010+0800","caller":"controller/user.go:18","msg":"SignUp with invalid param","error":"invalid character 'h' looking for beginning of value"}
+{"level":"INFO","time":"2022-04-16T20:14:26.010+0800","caller":"logger/logger.go:74","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.29.0","errors":"","cost":0.000254814}
+{"level":"ERROR","time":"2022-04-16T20:15:03.205+0800","caller":"controller/user.go:18","msg":"SignUp with invalid param","error":"invalid character '}' looking for beginning of object key string"}
+{"level":"INFO","time":"2022-04-16T20:15:03.205+0800","caller":"logger/logger.go:74","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.29.0","errors":"","cost":0.000144442}
+{"level":"ERROR","time":"2022-04-16T20:15:08.399+0800","caller":"controller/user.go:18","msg":"SignUp with invalid param","error":"Key: 'ParamSignUp.Password' Error:Field validation for 'Password' failed on the 'required' tag\nKey: 'ParamSignUp.RePassword' Error:Field validation for 'RePassword' failed on the 'required' tag"}
+{"level":"INFO","time":"2022-04-16T20:15:08.399+0800","caller":"logger/logger.go:74","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.29.0","errors":"","cost":0.000243625}
+{"level":"ERROR","time":"2022-04-16T20:15:23.571+0800","caller":"controller/user.go:18","msg":"SignUp with invalid param","error":"Key: 'ParamSignUp.RePassword' Error:Field validation for 'RePassword' failed on the 'required' tag"}
+{"level":"INFO","time":"2022-04-16T20:15:23.571+0800","caller":"logger/logger.go:74","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.29.0","errors":"","cost":0.000166064}
+{"level":"DEBUG","time":"2022-04-16T20:17:23.727+0800","caller":"bluebell/main.go:28","msg":"logger init success"}
+{"level":"ERROR","time":"2022-04-16T20:17:34.031+0800","caller":"controller/user.go:18","msg":"SignUp with invalid param","error":"Key: 'ParamSignUp.rePassword' Error:Field validation for 'rePassword' failed on the 'required' tag"}
+{"level":"INFO","time":"2022-04-16T20:17:34.031+0800","caller":"logger/logger.go:74","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.29.0","errors":"","cost":0.000263069}
+{"level":"ERROR","time":"2022-04-16T20:17:34.745+0800","caller":"controller/user.go:18","msg":"SignUp with invalid param","error":"Key: 'ParamSignUp.rePassword' Error:Field validation for 'rePassword' failed on the 'required' tag"}
+{"level":"INFO","time":"2022-04-16T20:17:34.745+0800","caller":"logger/logger.go:74","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.29.0","errors":"","cost":0.000569444}
+{"level":"ERROR","time":"2022-04-16T20:17:35.199+0800","caller":"controller/user.go:18","msg":"SignUp with invalid param","error":"Key: 'ParamSignUp.rePassword' Error:Field validation for 'rePassword' failed on the 'required' tag"}
+{"level":"INFO","time":"2022-04-16T20:17:35.200+0800","caller":"logger/logger.go:74","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.29.0","errors":"","cost":0.000167581}
+{"level":"ERROR","time":"2022-04-16T20:17:38.377+0800","caller":"controller/user.go:18","msg":"SignUp with invalid param","error":"invalid character '}' looking for beginning of object key string"}
+{"level":"INFO","time":"2022-04-16T20:17:38.378+0800","caller":"logger/logger.go:74","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.29.0","errors":"","cost":0.000203412}
+{"level":"ERROR","time":"2022-04-16T20:17:41.303+0800","caller":"controller/user.go:18","msg":"SignUp with invalid param","error":"Key: 'ParamSignUp.password' Error:Field validation for 'password' failed on the 'required' tag\nKey: 'ParamSignUp.rePassword' Error:Field validation for 'rePassword' failed on the 'required' tag"}
+{"level":"INFO","time":"2022-04-16T20:17:41.303+0800","caller":"logger/logger.go:74","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.29.0","errors":"","cost":0.000229533}

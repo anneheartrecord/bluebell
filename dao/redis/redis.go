@@ -1,7 +1,7 @@
 package redis
 
 import (
-	setttings "bluebell/settings"
+	"bluebell/settings"
 	"strconv"
 
 	"github.com/go-redis/redis"
@@ -12,7 +12,7 @@ var (
 	Nil    = redis.Nil
 )
 
-func Init(cfg *setttings.RedisConfig) (err error) {
+func Init(cfg *settings.RedisConfig) (err error) {
 	client = redis.NewClient(&redis.Options{
 		Addr:     cfg.Host + ":" + strconv.Itoa(cfg.Port),
 		Password: cfg.Password,
