@@ -1,9 +1,11 @@
 package controller
 
 import (
+	"bluebell/dao/mysql"
 	"bluebell/logic"
 	"bluebell/models"
-	"net/http"
+	"errors"
+	"fmt"
 
 	"github.com/go-playground/validator/v10"
 
@@ -13,24 +15,55 @@ import (
 )
 
 func SignUpHandler(c *gin.Context) {
-	var p models.ParamSignUp
-	if err := c.ShouldBindJSON(&p); err != nil {
+	p := new(models.ParamSignUp)
+	if err := c.ShouldBindJSON(p); err != nil {
 		zap.L().Error("SignUp with invalid param", zap.Error(err))
 		errs, ok := err.(validator.ValidationErrors)
 		if !ok {
-			c.JSON(http.StatusOK, gin.H{
-				"msg": err.Error(),
-			})
+			ResponseError(c, CodeInvalidParam)
+			return
 		} else {
-			c.JSON(http.StatusOK, gin.H{
-				"msg": removeTopStruct(errs.Translate(trans)),
-			})
+			ResponseErrorWithMsg(c, CodeInvalidParam, removeTopStruct(errs.Translate(trans)))
 		}
-
 		return
 	}
-	logic.SignUp()
-	c.JSON(200, gin.H{
-		"msg": "ok",
+	if err := logic.SignUp(p); err != nil {
+		zap.L().Error("logic Signup failed", zap.Error(err))
+		if errors.Is(err, mysql.ErrorUserExist) {
+			ResponseError(c, CodeUserExist)
+		}
+		ResponseError(c, CodeServerBusy)
+		return
+	}
+	ResponseSuccess(c, nil)
+}
+func LoginHandler(c *gin.Context) {
+	p := new(models.ParamLogin)
+	if err := c.ShouldBindJSON(p); err != nil {
+		zap.L().Error("Login with invalid param", zap.Error(err))
+		errs, ok := err.(validator.ValidationErrors)
+		if !ok {
+			ResponseError(c, CodeInvalidParam)
+
+		} else {
+			ResponseErrorWithMsg(c, CodeInvalidParam, removeTopStruct(errs.Translate(trans)))
+		}
+		return
+	}
+	user, err := logic.Login(p)
+	if err != nil {
+		zap.L().Error("logic login failed", zap.Error(err))
+		if errors.Is(err, mysql.ErrorUserNotExist) {
+			ResponseError(c, CodeUserNotExist)
+			return
+		}
+		ResponseError(c, CodeInvalidPassword)
+		return
+	}
+	ResponseSuccess(c, gin.H{
+		"user_id":   fmt.Sprintf("%d", user.UserID),
+		"user_name": user.Username,
+		"token":     user.Token,
 	})
+	return
 }

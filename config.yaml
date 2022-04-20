@@ -1,4 +1,4 @@
-name: "web_app"
+name: "bluebell"
 mode: "dev"
 port: 8081
 version: "v0.1.3"
